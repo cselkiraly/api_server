@@ -1,7 +1,7 @@
 {
   "name": "sign-up-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "API server communication for Newsletter sign-up",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,13 @@
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
     "request": "^2.88.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cselkiraly/api_server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cselkiraly/api_server/issues"
+  },
+  "homepage": "https://github.com/cselkiraly/api_server#readme"
 }
