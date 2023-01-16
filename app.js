@@ -78,6 +78,6 @@ app.post("/", function(req, resp){
 
 })
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){    // setting the server to a dynamic port (process object is defined by Heroku), or to localhost 3000 if dynamic server is not available
     console.log("Running server on port 3000...");
 })
